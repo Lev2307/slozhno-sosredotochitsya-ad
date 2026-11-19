@@ -5,15 +5,27 @@
 */
 
 :root.theme-dark {
-  :root.theme-dark {
+  --accent-text-color: #F1B2CE;
+  --accent-title-text-color: #DB00FF;
+  --accent-block-bg-color: #FF0070;
+  --accent-block-text-color: #000028;
+  --accent-color-link-hover: #FF007066;
+}
+
+.theme-dark .page {
+  background-image: url("../images/cover-image-dark.png");
+}
+
+@media (prefers-color-scheme: dark) {
+  :root.theme-auto {
     --accent-text-color: #F1B2CE;
     --accent-title-text-color: #DB00FF;
     --accent-block-bg-color: #FF0070;
     --accent-block-text-color: #000028;
     --accent-color-link-hover: #FF007066;
   }
-}
 
-.theme-dark .page {
-  background-image: url("../images/cover-image-dark.png");
+  .theme-auto .page {
+    background-image: url("../images/cover-image-dark.png");
+  }
 }

@@ -15,3 +15,17 @@
 .theme-light .page {
   background-image: url("../images/cover-image-light.png");
 }
+
+@media (prefers-color-scheme: light) {
+  :root.theme-auto {
+    --accent-text-color: #353430;
+    --accent-title-text-color: #FFC2E6;
+    --accent-block-bg-color: #FF8DCB;
+    --accent-block-text-color: #353430;
+    --accent-color-link-hover: #35343066;
+  }
+
+  .theme-auto .page {
+    background-image: url("../images/cover-image-light.png");
+  }
+}
