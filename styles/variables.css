@@ -2,3 +2,16 @@
   Переменные для вашего проекта
   и их переопределение под различные устройства
 */
+:root {
+  --accent-text-color: #F1B2CE;
+  --accent-title-text-color: #DB00FF;
+  --accent-block-bg-color: #FF0070;
+  --accent-block-text-color: #000028;
+  --section-gap: 50px;
+  --small-text-font-size: 18px;
+  --header-title-font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  --accent-color-link-hover: #FF007066;
+  --main-line-height: 23.4px;
+  --gap: 20px;
+  --small-gap: 10px;
+}
