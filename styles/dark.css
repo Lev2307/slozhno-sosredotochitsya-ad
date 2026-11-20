@@ -18,7 +18,7 @@
 }
 
 @media (prefers-color-scheme: dark) {
-  :root.theme-auto {
+  :root {
     --accent-text-color: #F1B2CE;
     --accent-title-text-color: #DB00FF;
     --accent-block-bg-color: #FF0070;
@@ -27,7 +27,7 @@
     --accent-color-link-hover: #FF007066;
   }
 
-  .theme-auto .page {
+  .page {
     background-image: url("../images/cover-image-dark.png");
   }
 }

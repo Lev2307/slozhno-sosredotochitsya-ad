@@ -363,24 +363,24 @@
     object-fit: cover;
   }
 
-  .image__focus.sunset { 
-    grid-area: sunset; 
+  .image__focus.sunset {
+    grid-area: sunset;
   }
 
-  .image__focus.icecream { 
-    grid-area: icecream; 
+  .image__focus.icecream {
+    grid-area: icecream;
   }
 
-  .image__focus.tape { 
-    grid-area: tape; 
+  .image__focus.tape {
+    grid-area: tape;
   }
 
-  .image__focus.books { 
-    grid-area: books; 
+  .image__focus.books {
+    grid-area: books;
   }
 
-  .image__focus.street { 
-    grid-area: street; 
+  .image__focus.street {
+    grid-area: street;
   }
 
 }
