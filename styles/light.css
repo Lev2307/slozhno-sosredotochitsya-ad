@@ -17,6 +17,18 @@
   background-image: url("../images/cover-image-light.png");
 }
 
+.theme-light .header__logo__rect::before {
+  display: none;
+}
+
+.theme-light .header__logo__text {
+  display: none;
+}
+
+.theme-light .header__logo {
+  padding-left: 26px;
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     --accent-text-color: #353430;
@@ -29,5 +41,15 @@
 
   .page {
     background-image: url("../images/cover-image-light.png");
+  }
+
+  .header__logo__rect::before {
+    display: none;
+  }
+  .header__logo__text {
+    display: none;
+  }
+  .header__logo {
+    padding-left: 26px;
   }
 }
